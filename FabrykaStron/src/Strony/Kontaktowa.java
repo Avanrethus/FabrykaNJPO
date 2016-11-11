@@ -1,5 +1,9 @@
 package Strony;
+import FabrykaMain.tworzStrony;
 
-public class Kontaktowa {
-    
+public class Kontaktowa implements tworzStrony {
+    @Override
+    public void tworz(){
+        
+    }
 }
