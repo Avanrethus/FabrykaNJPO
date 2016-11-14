@@ -2,7 +2,7 @@ package FabrykaMain;
 import Strony.*;
 
 public class Fabryka {
-    public tworzStrony getRodzaj(String rodzajStrony){
+    public tworzStrony tworzStrone(String rodzajStrony){
         if(rodzajStrony == null){
             return null;
         }

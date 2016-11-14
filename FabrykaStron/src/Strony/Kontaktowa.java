@@ -7,10 +7,10 @@ public class Kontaktowa extends Strona implements tworzStrony {
         Random r = new Random();
         int x = 0;
         String a ="Adres: Katowice ul. Góreckiego 15 <br/>" + "Numer telefonu: 785-556-234 <br/>";
-        String b ="Adres: Jaworzno ul.Budowalana 20 <>br/"+ "Numer telefonu: 985-664-789 <br/>";
+        String b ="Adres: Jaworzno ul.Budowalana 20 <br/>"+ "Numer telefonu: 985-664-789 <br/>";
         String c ="Adres: Kraków ul. Zaułek 12 <br/>" +  "Numer telefonu: 458-22-33 <br/>";
         
-        x = r.nextInt(3);
+        x = r.nextInt(3)+1;
         if (x == 1){
                 zawartosc = a;
             }
