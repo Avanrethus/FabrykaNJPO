@@ -9,7 +9,7 @@ public class Program {
         Fabryka fab = new Fabryka();
         Scanner scan = new Scanner(System.in);
         int opt;
-        System.out.println("Witam. Prosze wybrać jaką stronę chcesz stworzyć:\n1#Informacyjna.\n2#Aktualności.\n3#Kontaktowa.\n4#Galeria Zdjęć.\n5#Wyjście.\n");
+        System.out.println("Witam. Prosze wybrać jaką stronę chcesz stworzyć:\n1# Informacyjna.\n2# Aktualności.\n3# Kontaktowa.\n4# Galeria Zdjęć.\n5# Wyjście.\n");
         do{
             opt = scan.nextInt();
             if(opt == 1 ){
